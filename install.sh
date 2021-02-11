@@ -39,6 +39,8 @@ makelink tmux.conf .tmux.conf
 
 mkdir .vim
 makelink snippets .vim/snippets
+makelink syntax .vim/syntax
+makelink cobol.vim .vim/syntax/cobol.vim
 
 # Set up Vim Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
