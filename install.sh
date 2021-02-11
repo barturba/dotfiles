@@ -35,6 +35,8 @@ makelink zshrc .zshrc
 makelink vimrc .vimrc
 makelink Xresources .Xresources
 makelink screenrc .screenrc
+makelink tmux.conf .tmux.conf
+
 mkdir .vim
 makelink snippets .vim/snippets
 
