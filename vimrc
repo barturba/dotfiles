@@ -9,6 +9,7 @@ set smartcase
 set ignorecase
 set ruler
 set paste
+set nowrap 
 highlight Comment ctermfg=green
 set mouse=r
 if &term =~ '256color'
