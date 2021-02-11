@@ -5,6 +5,8 @@ set expandtab
 set ai
 set number
 set hlsearch
+set smartcase
+set ignorecase
 set ruler
 set paste
 highlight Comment ctermfg=green
