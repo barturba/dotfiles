@@ -19,3 +19,11 @@ endif
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
+" cobc --list-reserved | tail -n+3 | cut -f1 >~/.vim/ocreserved.lis
+" set ignorecase
+" set infercase
+" set complete=k~/.vim/ocreserved.lis
+" set virtualedit=all
+set virtualedit=all
+set infercase
+set complete=k~/.vim/ocreserved.lis
